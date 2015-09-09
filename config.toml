@@ -2,3 +2,9 @@ baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Dirk Courteaux Guitars"
 theme = "guitars"
+author = "Martijn Courteaux"
+
+[params]
+  description = "Tesla's Awesome Hugo Site"
+  author = "Martijn Courteaux"
+  year = "2015"

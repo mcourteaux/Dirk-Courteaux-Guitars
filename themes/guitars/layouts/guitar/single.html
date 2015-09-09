@@ -1,0 +1,55 @@
+{{ partial "head.html" . }}
+{{ partial "navbar.html" . }}
+<div id="container">
+	<header class="bg-color">
+		<div class="base">
+			<h1>{{ .Title }} - {{ .Params.buildyear }}</h1>
+		</div>
+	</header>
+
+	<div class="base">
+	<div class="details">
+		<h3>Woods</h3>
+		<table>
+		<tbody>
+			<tr>
+				<td>Top</td>
+				<td>{{ .Params.wt_top }}</td>
+			</tr>
+			<tr>
+				<td>Sides and back</td>
+				<td>{{ .Params.wt_sides_and_back }}</td>
+			</tr>
+			<tr>
+				<td>Neck</td>
+				<td>{{ .Params.wt_neck }}</td>
+			</tr>
+			<tr>
+				<td>Bridge</td>
+				<td>{{ .Params.wt_bridge }}</td>
+			</tr>
+			<tr>
+				<td>Fingerboard</td>
+				<td>{{ .Params.wt_fingerboard }}</td>
+			</tr>
+		</tbody>
+		</table>
+
+		<h3>Finish</h3>
+		<p>
+			{{ .Params.finish }}
+		</p>
+
+		<h3>Mechanics</h3>
+		<p>
+			{{ .Params.mechanics }}
+		</p>
+	</div>
+	</div>
+
+	<div class="base">
+		{{ .Content }}
+	</div>
+	{{ partial "footer.html" . }}
+</div>
+{{ partial "foot.html" . }}

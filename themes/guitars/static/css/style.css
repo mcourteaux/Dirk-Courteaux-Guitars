@@ -12,6 +12,7 @@
 html
 {
 	font-family: OpenSans-Light;
+	background-color: black;
 }
 
 nav
@@ -49,11 +50,21 @@ nav
 				color: gray;
 				border-bottom: 2px solid gray;
 			}
-div.bg-color
+header.bg-color
 {
 	width: 100%;
 	background-image: url("/img/background.jpg");
-	padding: 50px 0;
+	padding: 0;
+}
+
+footer
+{
+	width: 100%;
+	background-color: black;
+	color: gray;
+	text-align: center;
+	font-size: smaller;
+	padding: 15px 0;
 }
 
 div.base
@@ -61,6 +72,7 @@ div.base
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
+	padding: 20px 0;
 }
 
 div.center
@@ -73,6 +85,7 @@ div.center
 {
 	top: 70px;
 	position: relative;
+	background-color: white;
 }
 
 #avatar
@@ -80,7 +93,46 @@ div.center
 	background-image: url("/img/avatar.jpg");
 	background-size: contain;
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 160px;
+	height: 160px;
 	box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.5);
 }
+
+.details
+{
+	width: 70%;
+	margin: 0 auto;
+	border: 2px solid #F3F3F3;
+	box-shadow: 0 0 0px 1px gray;
+	background-color: #E6E6E6;
+	border-radius: 10px;
+	padding: 10px 30px;
+}
+	.details h3
+	{
+		margin: 20px 0 20px 0;
+	}
+	.details table
+	{
+		width: 70%;
+		margin-left: 15%;
+	}
+		.details table tr
+		{
+			height: 140%;
+		}
+		.details table td:first-child 
+		{
+			font-family: OpenSans-Regular;
+			font-weight: bolder;
+		}
+		.details table td:last-child 
+		{
+			text-align: right;
+		}
+	.details p
+	{
+		width: 70%;
+		margin-left: 15%;
+	}
+
