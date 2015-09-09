@@ -1,0 +1,67 @@
+{{ partial "head.html" . }}
+{{ partial "navbar.html" . }}
+<div id="container">
+	<header class="bg-color">
+		{{ partial "header.html" . }}
+		<div class="base">
+		<h2>{{ .Title }}</h2>
+		</div>
+	</header>
+	<div class="base">
+		<p>Here comes a list of all my guitars.</p>
+	</div>
+	<div class="base"><div style="display: inline-block; width: 100%;">
+        {{ range $index, $element := .Data.Pages }}
+            {{ if modBool $index 2 }}
+            	<div class="list-guitars alt">
+            {{ else }}
+            	<div class="list-guitars">
+            {{ end}}
+
+	       		{{ .Render "li"}}
+	        </div>
+        {{ end }}
+
+
+
+
+        {{ range $index, $element := .Data.Pages }}
+            {{ if modBool $index 2 }}
+            	<div class="list-guitars alt">
+            {{ else }}
+            	<div class="list-guitars">
+            {{ end}}
+
+	       		{{ .Render "li"}}
+	        </div>
+        {{ end }}
+
+
+
+        {{ range $index, $element := .Data.Pages }}
+            {{ if modBool $index 2 }}
+            	<div class="list-guitars alt">
+            {{ else }}
+            	<div class="list-guitars">
+            {{ end}}
+
+	       		{{ .Render "li"}}
+	        </div>
+        {{ end }}
+
+
+
+        {{ range $index, $element := .Data.Pages }}
+            {{ if modBool $index 2 }}
+            	<div class="list-guitars alt">
+            {{ else }}
+            	<div class="list-guitars">
+            {{ end}}
+
+	       		{{ .Render "li"}}
+	        </div>
+        {{ end }}
+	</div></div>
+	{{ partial "footer.html" . }}
+</div>
+{{ partial "foot.html" . }}

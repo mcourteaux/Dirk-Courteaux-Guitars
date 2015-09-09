@@ -15,6 +15,53 @@ html
 	background-color: black;
 }
 
+/* General style */
+
+header.bg-color
+{
+	width: 100%;
+	background-image: url("/img/background.jpg");
+	padding: 0;
+}
+
+footer
+{
+	width: 100%;
+	background-color: black;
+	color: gray;
+	text-align: center;
+	font-size: smaller;
+	padding: 15px 0;
+}
+
+div.base
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	padding: 20px 0;
+}
+
+div.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2
+{
+	font-size: 40px;
+}
+
+#container
+{
+	top: 70px;
+	position: relative;
+	background-color: white;
+}
+
+/* Navigation bar */
+
 nav
 {
 	width: 100%;
@@ -50,42 +97,22 @@ nav
 				color: gray;
 				border-bottom: 2px solid gray;
 			}
-header.bg-color
-{
-	width: 100%;
-	background-image: url("/img/background.jpg");
-	padding: 0;
-}
 
-footer
+
+
+/* Homepage */
+
+header h1
 {
-	width: 100%;
-	background-color: black;
-	color: gray;
 	text-align: center;
-	font-size: smaller;
-	padding: 15px 0;
+	font-size: 50px;
+	color: white;
+	font-family: OpenSans-Light;
+	font-weight: 300;
+	height: 100px;
 }
-
-div.base
+header h1:first-letter
 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
-	padding: 20px 0;
-}
-
-div.center
-{
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#container
-{
-	top: 70px;
-	position: relative;
-	background-color: white;
 }
 
 #avatar
@@ -98,6 +125,45 @@ div.center
 	box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.5);
 }
 
+/* Guitars list page */
+div.list-guitars
+{
+	list-style: none;
+	width: 200px;
+	float: left;
+}
+.list-guitars.alt
+{
+	background-color: #F0F0F0;
+}
+div.list-guitars a
+{
+	color: black;
+	text-decoration: none;
+}
+div.list-guitars a:hover
+{
+	text-decoration: underline;;
+}
+	div.list-guitars h3
+	{
+		text-align: center;
+	}
+	div.list-guitars div.img-container
+	{
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+	}
+		div.list-guitars div.img-container img
+		{
+			min-width: 100%;
+			min-height: 100%;
+		}
+
+
+/* Guitar Details page */
+
 .details
 {
 	width: 70%;
@@ -106,16 +172,18 @@ div.center
 	box-shadow: 0 0 0px 1px gray;
 	background-color: #E6E6E6;
 	border-radius: 10px;
-	padding: 10px 30px;
+	padding: 0px 23px;
+	font-size: 90%;
 }
 	.details h3
 	{
-		margin: 20px 0 20px 0;
+		margin: 20px 0 10px 0;
 	}
 	.details table
 	{
 		width: 70%;
 		margin-left: 15%;
+		margin-right: 15%;
 	}
 		.details table tr
 		{
