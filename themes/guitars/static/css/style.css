@@ -331,6 +331,16 @@ div.list-guitars a:hover
 	padding: 0px 23px;
 	font-size: 90%;
 }
+	.details h2
+	{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 14px 0 0 0;
+		padding: 0;
+		color: #2098d1;
+		font-size: 30px;
+	}
 	.details h3
 	{
 		margin: 20px 0 10px 0;
@@ -343,7 +353,7 @@ div.list-guitars a:hover
 	}
 		.details table tr
 		{
-			height: 140%;
+			line-height: 22px;
 		}
 		.details table td:first-child 
 		{
