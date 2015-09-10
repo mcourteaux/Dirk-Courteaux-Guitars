@@ -15,6 +15,24 @@ html
 	background-color: black;
 }
 
+/* Hover effect */
+.hvr-grow {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /* Website Header */
 
 header.site-header
@@ -160,8 +178,6 @@ nav
 
 /* Homepage */
 
-
-
 #avatar
 {
 	background-image: url("/img/avatar.jpg");
@@ -213,22 +229,25 @@ div.list-guitars a:hover
 		}
 		div.list-guitars div.img-container div.loop
 		{
-			-display: none;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 			z-index: 1;
 		}
-		div.list-guitars div.img-container div.loop:hover
+		div.list-guitars a:hover div.loop
 		{
 			display: block;
 			background-color: rgba(255, 255, 255, 0.3);
 			background-position: center;
 			background-repeat: no-repeat;
-			background-image: url("/img/more.png");
+			background-image: url("/img/more_white.png");
 		}
-
-
+		div.list-guitars a:hover .hvr-grow,
+		div.list-guitars a:focus .hvr-grow,
+		div.list-guitars a:active .hvr-grow {
+		  -webkit-transform: scale(1.1);
+		  transform: scale(1.1);
+		}
 
 
 /* Guitar Details page */
