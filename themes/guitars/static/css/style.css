@@ -270,6 +270,8 @@ div.list-guitars a
 {
 	color: black;
 	text-decoration: none;
+	padding: 2px;
+	display: block;
 }
 div.list-guitars a:hover
 {
@@ -289,11 +291,13 @@ div.list-guitars a:hover
 		overflow: hidden;
 		position: relative;
 	}
-		div.list-guitars div.img-container img
+		div.list-guitars div.img-container div.img
 		{
 			min-width: 100%;
 			min-height: 100%;
 			position: absolute;
+			background-size: cover;
+			background-position: center;
 		}
 		div.list-guitars div.img-container div.loop
 		{

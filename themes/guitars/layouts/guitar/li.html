@@ -2,7 +2,7 @@
 <a href="{{ .Permalink }}">
 	<span>{{ .Title }}</span>
 	<div class="img-container">
-		<img src="/img/guitar/{{ .Source.File.BaseFileName }}/thumb.jpg" class="hvr-grow"  />
+		<div class="img hvr-grow" style="background-image: url('/img/guitar/{{ .Source.File.BaseFileName }}/thumb.jpg');"></div>
 		<div class="loop"></div>
 	</div>
 </a>

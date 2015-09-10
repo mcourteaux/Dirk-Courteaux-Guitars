@@ -11,7 +11,7 @@ wt_headstock_overlay = "Rosewood"
 wt_neck = "Ceder"
 wt_sides_and_back = "Cherrywood"
 wt_top = "European Sprouce"
-guitar_type = "accoustic"
+guitar_type = "classical"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
