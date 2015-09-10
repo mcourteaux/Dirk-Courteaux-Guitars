@@ -360,3 +360,55 @@ div.list-guitars a:hover
 		margin-left: 15%;
 	}
 
+
+/* Contact form */
+form {
+  max-width: 600px;
+  margin: 0 auto 100px;
+  padding: 0 20px; }
+  form fieldset {
+  	border: none;
+  	padding: 0;
+  	margin: 0;}
+  form input, form textarea {
+    border: 3px solid #2098d1;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px; }
+    form input:focus, form textarea:focus {
+      outline: none;
+      border-color: #4FBDFF; }
+  form textarea {
+    height: 10em;
+    resize: none; }
+  form .submit-wrap {
+    text-align: right; }
+  form [type="submit"] {
+    background: #2098d1;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 33%; }
+    form [type="submit"]:hover {
+      background: #4FBDFF; }
+  form .contact-info-group label {
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    form .contact-info-group label:nth-child(1) {
+      padding-right: 10px; }
+    form .contact-info-group label:nth-child(2) {
+      padding-left: 10px; }
+  form label {
+    display: block;
+    margin-bottom: 20px; }
+    form label span {
+      display: block; }

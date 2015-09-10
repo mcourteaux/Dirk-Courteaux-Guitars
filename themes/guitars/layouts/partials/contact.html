@@ -1,0 +1,21 @@
+<div class="alt">
+<div class="base">
+    <h2>Contact</h2>
+    <form method="POST" action="//formspree.io/{{ .Site.Params.email }}">
+        <fieldset class="contact-info-group">
+            <label><span>Name</span>
+                <input type="text" name="name">
+            </label>
+            <label><span>Email</span>
+                <input type="email" name="_replyto">
+            </label>
+        </fieldset>
+        <label><span>Message</span>
+            <textarea name="message"></textarea>
+        </label>
+        <fieldset class="submit-wrap">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</div>
+</div>
