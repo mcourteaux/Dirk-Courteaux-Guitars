@@ -7,4 +7,5 @@ author = "Martijn Courteaux"
 [params]
   author = "Martijn Courteaux"
   year = "2015"
-  welcome = "This is a test"
+  welcome = "My name is **Dirk**. I'm a passionate guitar builder. I'm a student at **CMB Puurs** in my 7th year. On this website, I will showcase my work, which will be mainly guitars and some tools."
+  subtitle = "Handcrafted high-quality guitars"
