@@ -1,67 +1,74 @@
 {{ partial "head.html" . }}
-{{ partial "navbar.html" . }}
 <div id="container">
-	<header class="bg-color">
-		{{ partial "header.html" . }}
-		<div class="base">
-		<h2>{{ .Title }}</h2>
-		</div>
-	</header>
+	{{ partial "header.html" . }}
+	{{ partial "navbar.html" . }}
+
+	<header class="page-header">
 	<div class="base">
-		<p>Here comes a list of all my guitars.</p>
+		<h2><div class="triangle"></div> {{ .Title }}</h2>
 	</div>
-	<div class="base"><div style="display: inline-block; width: 100%;">
-        {{ range $index, $element := .Data.Pages }}
+	</header>
+
+	<div class="base">
+		<p>Guitars are organized by type, e.g.: accoustic, steelstrings and electric guitars.</p>
+	</div>
+
+	<!-- Accoustic -->
+	<div>
+	<div class="base">
+	<h3>Accoustic</h3>
+	<div style="display: inline-block; width: 100%;">
+        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "accoustic") }}
             {{ if modBool $index 2 }}
             	<div class="list-guitars alt">
             {{ else }}
             	<div class="list-guitars">
             {{ end}}
 
-	       		{{ .Render "li"}}
+	       	{{ .Render "li"}}
 	        </div>
         {{ end }}
+	</div>
+	</div>
+	</div>
 
-
-
-
-        {{ range $index, $element := .Data.Pages }}
+	<!-- Steelstring -->
+	<div class="alt">
+	<div class="base">
+	<h3>Steelstring</h3>
+	<div style="display: inline-block; width: 100%;">
+        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "steelstring") }}
             {{ if modBool $index 2 }}
             	<div class="list-guitars alt">
             {{ else }}
             	<div class="list-guitars">
             {{ end}}
 
-	       		{{ .Render "li"}}
+	       	{{ .Render "li"}}
 	        </div>
         {{ end }}
+	</div>
+	</div>
+	</div>
 
-
-
-        {{ range $index, $element := .Data.Pages }}
+	<!-- Electric -->
+	<div>
+	<div class="base">
+	<h3>Electric</h3>
+	<div style="display: inline-block; width: 100%;">
+        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "electric") }}
             {{ if modBool $index 2 }}
             	<div class="list-guitars alt">
             {{ else }}
             	<div class="list-guitars">
             {{ end}}
 
-	       		{{ .Render "li"}}
+	       	{{ .Render "li"}}
 	        </div>
         {{ end }}
-
-
-
-        {{ range $index, $element := .Data.Pages }}
-            {{ if modBool $index 2 }}
-            	<div class="list-guitars alt">
-            {{ else }}
-            	<div class="list-guitars">
-            {{ end}}
-
-	       		{{ .Render "li"}}
-	        </div>
-        {{ end }}
-	</div></div>
+	</div>
+	</div>
+	</div>
 	{{ partial "footer.html" . }}
 </div>
 {{ partial "foot.html" . }}

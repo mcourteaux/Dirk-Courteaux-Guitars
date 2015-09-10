@@ -1,5 +1,5 @@
 +++
-buildyear = "2008"
+buildyear = "2010"
 date = "2015-09-09T20:59:07+02:00"
 finish = "French polish"
 guitar_sequence_number = "3"
@@ -11,7 +11,7 @@ wt_headstock_overlay = "Rosewood"
 wt_neck = "Ceder"
 wt_sides_and_back = "Cherrywood"
 wt_top = "European Sprouce"
-
+guitar_type = "accoustic"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -1,11 +1,16 @@
 {{ partial "head.html" . }}
-{{ partial "navbar.html" . }}
 <div id="container">
-	<header class="bg-color">
-		<div class="base">
-			<h1>{{ .Title }} - {{ .Params.buildyear }}</h1>
-		</div>
+	{{ partial "header.html" . }}
+	{{ partial "navbar.html" . }}
+
+	<header class="page-header">
+	<div class="base">
+		<div class="thumb" style="background-image: url('/img/guitar/{{ .Source.File.BaseFileName }}/thumb.jpg');"></div>
+		<div class="triangle"></div>
+		<h2>{{ .Title }} - {{ .Params.buildyear }}</h2>
+	</div>
 	</header>
+
 
 	<div class="base">
 	<div class="details">

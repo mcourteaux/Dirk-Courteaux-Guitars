@@ -15,13 +15,69 @@ html
 	background-color: black;
 }
 
-/* General style */
+/* Website Header */
 
-header.bg-color
+header.site-header
 {
 	width: 100%;
 	background-image: url("/img/background.jpg");
 	padding: 0;
+}
+
+header.site-header h1
+{
+	text-align: center;
+	font-size: 60px;
+	font-variant: small-caps;
+	color: white;
+	font-family: OpenSans-Light;
+	font-weight: 300;
+}
+
+/* General style */
+
+header.page-header
+{
+	width: 100%;
+	background-color: #EEE;
+	padding: 0;
+	color: black;
+	height: 80px;
+}
+
+header.page-header div.base
+{
+	display: block;
+	height: 100%;
+	line-height: 80px;
+	padding: 0;
+}
+
+header.page-header h2
+{
+	margin: 0;
+	font-size: 25px;
+	padding: 0;
+	display: inline-block;
+}
+
+header.page-header div.thumb
+{
+	display: inline-block;
+	background-size: cover;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	top: 16px;
+	position: relative;
+	margin-right: 10px;
+}
+
+header.page-header div.triangle
+{
+	display: inline-block;
+	border: 9px solid transparent;
+	border-left: 9px solid black;
 }
 
 footer
@@ -42,10 +98,9 @@ div.base
 	padding: 20px 0;
 }
 
-div.center
+div.alt
 {
-	margin-left: auto;
-	margin-right: auto;
+	background-color: #EEE;
 }
 
 h2
@@ -55,7 +110,7 @@ h2
 
 #container
 {
-	top: 70px;
+	/* top: 70px;*/
 	position: relative;
 	background-color: white;
 }
@@ -68,7 +123,7 @@ nav
 	display: block;
 	background-color: black;
 	font-family: OpenSans-Regular;
-	position: fixed;
+	/*position: fixed;*/
 	z-index: 1;
 }
 	nav ul
@@ -102,24 +157,14 @@ nav
 
 /* Homepage */
 
-header h1
-{
-	text-align: center;
-	font-size: 50px;
-	color: white;
-	font-family: OpenSans-Light;
-	font-weight: 300;
-	height: 100px;
-}
-header h1:first-letter
-{
-}
+
 
 #avatar
 {
 	background-image: url("/img/avatar.jpg");
 	background-size: contain;
 	border-radius: 50%;
+	margin: 30px auto;
 	width: 160px;
 	height: 160px;
 	box-shadow: 10px 10px 40px 0 rgba(0,0,0,0.5);

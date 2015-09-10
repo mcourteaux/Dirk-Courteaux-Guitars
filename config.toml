@@ -5,6 +5,6 @@ theme = "guitars"
 author = "Martijn Courteaux"
 
 [params]
-  description = "Tesla's Awesome Hugo Site"
   author = "Martijn Courteaux"
   year = "2015"
+  welcome = "This is a test"
