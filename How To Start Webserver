@@ -1,0 +1,6 @@
+How To Start Webserver
+
+Start iTerm: Cmd-Spatie "iTerm"
+Ga naar uw website map: z dirk
+Start hugo server in watch mode: hugo server -w
+Webserver Stoppen: in terminal "Ctrl-C"

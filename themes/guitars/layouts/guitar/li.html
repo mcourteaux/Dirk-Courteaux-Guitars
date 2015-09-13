@@ -1,6 +1,6 @@
 
 <a href="{{ .Permalink }}">
-	<span>{{ .Title }}</span>
+  <span>{{ if isset .Params "shorttitle" }}{{ .Params.shorttitle }}{{ else }}{{ .Title }}{{ end }}</span>
 	<div class="img-container">
 		<div class="img hvr-grow" style="background-image: url('/img/guitar/{{ .Source.File.BaseFileName }}/thumb.jpg');"></div>
 		<div class="loop"></div>

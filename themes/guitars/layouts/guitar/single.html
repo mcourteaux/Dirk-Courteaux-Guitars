@@ -22,8 +22,12 @@
 				<td>Top</td>
 				<td>{{ .Params.wt_top }}</td>
 			</tr>
-			<tr>
-				<td>Sides and back</td>
+      <tr>
+        {{ if eq .Params.guitar_type "electric"}}
+        <td>Body</td>
+        {{ else }}
+        <td>Sides and back</td>
+        {{ end }}
 				<td>{{ .Params.wt_sides_and_back }}</td>
 			</tr>
 			<tr>
@@ -53,11 +57,19 @@
 		<h3>Mechanics</h3>
 		<p>
 			{{ .Params.mechanics }}
-		</p>
+    </p>
+
+    {{ if isset .Params "amplifier" }}
+    <h3>Amplifier</h3>
+    <p>
+      {{ .Params.amplifier }}
+    </p>
+    {{ end }}
+
 	</div>
 	</div>
 
-	<div class="base">
+	<div class="base markdown">
 		{{ .Content }}
 	</div>
 	{{ partial "footer.html" . }}

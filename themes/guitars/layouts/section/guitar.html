@@ -19,7 +19,7 @@
 	<div class="base">
 	<h3>Classical</h3>
 	<div style="display: inline-block; width: 100%;">
-        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "classical") }}
+        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "classical").ByWeight }}
             {{ if modBool $index 2 }}
             	<div class="list-guitars alt">
             {{ else }}
@@ -38,7 +38,7 @@
 	<div class="base">
 	<h3>Steelstring</h3>
 	<div style="display: inline-block; width: 100%;">
-        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "steelstring") }}
+        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "steelstring").ByWeight }}
             {{ if modBool $index 2 }}
             	<div class="list-guitars alt">
             {{ else }}
@@ -57,7 +57,7 @@
 	<div class="base">
 	<h3>Electric</h3>
 	<div style="display: inline-block; width: 100%;">
-        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "electric") }}
+        {{ range $index, $element := (where .Data.Pages "Params.guitar_type" "electric").ByWeight }}
             {{ if modBool $index 2 }}
             	<div class="list-guitars alt">
             {{ else }}
