@@ -14,6 +14,7 @@ wt_sides_and_back = "Flamed Maple"
 wt_top = "European Spruce"
 
 +++
+I hope to finish this one in 2016:
+![](https://farm6.staticflickr.com/5780/21449329891_3106be128b_h.jpg)
 
-![](/img/guitar/torres_2/guitars_015.jpg)
-![](/img/guitar/torres_2/guitars_016.jpg)
+![](https://farm1.staticflickr.com/582/21449329221_21a811cfe7_h.jpg)

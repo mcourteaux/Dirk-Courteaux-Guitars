@@ -16,6 +16,8 @@ wt_top = "Picea"
 +++
 
 
+My very first:
 
-[![](/img/guitar/backpack/guitars_005.jpg)](/img/guitar/Backpack/guitars_005.jpg)
-![](/img/guitar/backpack/guitars_006.jpg)
+![](https://farm6.staticflickr.com/5742/21449338061_ad396c4c91_h.jpg)
+
+![](https://farm6.staticflickr.com/5770/21429900002_3c8fb1c156_h.jpg)

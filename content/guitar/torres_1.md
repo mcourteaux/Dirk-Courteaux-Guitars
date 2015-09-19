@@ -14,11 +14,17 @@ wt_top = "European Sprouce"
 guitar_type = "classical"
 
 +++
+My first full size clasical guitar:
+![](https://farm6.staticflickr.com/5766/20818157854_ca147a8c2a_h.jpg)
 
-[![](/img/guitar/torres_1/guitars_001.jpg)](/img/guitar/torres_1/guitars_001.jpg)
-![](/img/guitar/torres_1/guitars_002.jpg)
-![](/img/guitar/torres_1/guitars_020.jpg)
-![](/img/guitar/torres_1/guitars_027.jpg)
-![](/img/guitar/torres_1/guitars_037.jpg)
-![](/img/guitar/torres_1/guitars_041.jpg)
-![](/img/guitar/torres_1/guitars_042.jpg)
+![](https://farm6.staticflickr.com/5651/21253952999_6d02aa89b3_h.jpg)
+
+![](https://farm1.staticflickr.com/683/21429889382_64ef6970fa_c.jpg)
+
+![](https://farm6.staticflickr.com/5641/20819748033_22ede4a5c2_c.jpg)
+
+![](https://farm1.staticflickr.com/757/21252764820_e0c1576efd_c.jpg)
+
+![](https://farm6.staticflickr.com/5792/21414593276_d7424d137d_c.jpg)
+
+![](https://farm1.staticflickr.com/708/20819742313_2f67596893_c.jpg)
