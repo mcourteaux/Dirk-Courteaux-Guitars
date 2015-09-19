@@ -1,12 +1,12 @@
 @font-face
 {
 	font-family: OpenSans-Light;
-	src: url("/open-sans/OpenSans-Light.ttf");
+	src: url("../open-sans/OpenSans-Light.ttf");
 }
 @font-face
 {
 	font-family: OpenSans-Regular;
-	src: url("/open-sans/OpenSans-Regular.ttf");
+	src: url("../open-sans/OpenSans-Regular.ttf");
 }
 
 html
