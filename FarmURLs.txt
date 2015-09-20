@@ -1,3 +1,4 @@
+Received: 63
 guitars_001
 	  75x  75 : https://farm6.staticflickr.com/5766/20818157854_dec11f7eba_s.jpg
 	 150x 150 : https://farm6.staticflickr.com/5766/20818157854_dec11f7eba_q.jpg
@@ -752,3 +753,68 @@ guitars_058
 	1600x1068 : https://farm6.staticflickr.com/5677/20819736833_d0c010c6d6_h.jpg
 	2048x1367 : https://farm6.staticflickr.com/5677/20819736833_c53ed73503_k.jpg
 	2500x1669 : https://farm6.staticflickr.com/5677/20819736833_1df6d5f7f6_o.jpg
+telecaster_002
+	  75x  75 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_s.jpg
+	 150x 150 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_q.jpg
+	  67x 100 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_t.jpg
+	 160x 240 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_m.jpg
+	 214x 320 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_n.jpg
+	 334x 500 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd.jpg
+	 428x 640 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_z.jpg
+	 534x 800 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_c.jpg
+	 684x1024 : https://farm1.staticflickr.com/655/21547839756_00cb21e2dd_b.jpg
+	1068x1600 : https://farm1.staticflickr.com/655/21547839756_28d6f4f5ad_h.jpg
+	1367x2048 : https://farm1.staticflickr.com/655/21547839756_572cf80a9e_k.jpg
+	4016x6016 : https://farm1.staticflickr.com/655/21547839756_8bddf77122_o.jpg
+telecaster_001
+	  75x  75 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_s.jpg
+	 150x 150 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_q.jpg
+	  67x 100 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_t.jpg
+	 160x 240 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_m.jpg
+	 214x 320 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_n.jpg
+	 334x 500 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a.jpg
+	 428x 640 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_z.jpg
+	 534x 800 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_c.jpg
+	 684x1024 : https://farm1.staticflickr.com/691/20951252194_4dafd9fe5a_b.jpg
+	1068x1600 : https://farm1.staticflickr.com/691/20951252194_482d7ce38b_h.jpg
+	1367x2048 : https://farm1.staticflickr.com/691/20951252194_113d1fab65_k.jpg
+	4016x6016 : https://farm1.staticflickr.com/691/20951252194_30d02422e6_o.jpg
+telecaster_003
+	  75x  75 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_s.jpg
+	 150x 150 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_q.jpg
+	 100x  67 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_t.jpg
+	 240x 160 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_m.jpg
+	 320x 214 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_n.jpg
+	 500x 334 : https://farm1.staticflickr.com/733/20951264414_512be55dfb.jpg
+	 640x 428 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_z.jpg
+	 800x 534 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_c.jpg
+	1024x 684 : https://farm1.staticflickr.com/733/20951264414_512be55dfb_b.jpg
+	1600x1068 : https://farm1.staticflickr.com/733/20951264414_ba9b90d1cf_h.jpg
+	2048x1367 : https://farm1.staticflickr.com/733/20951264414_2a11ac2092_k.jpg
+	6016x4016 : https://farm1.staticflickr.com/733/20951264414_3e25e240de_o.jpg
+telecaster_005
+	  75x  75 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_s.jpg
+	 150x 150 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_q.jpg
+	 100x  67 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_t.jpg
+	 240x 160 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_m.jpg
+	 320x 214 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_n.jpg
+	 500x 334 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec.jpg
+	 640x 428 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_z.jpg
+	 800x 534 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_c.jpg
+	1024x 684 : https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_b.jpg
+	1600x1068 : https://farm1.staticflickr.com/681/21547852926_ce2ea782ec_h.jpg
+	2048x1367 : https://farm1.staticflickr.com/681/21547852926_e239815486_k.jpg
+	5850x3905 : https://farm1.staticflickr.com/681/21547852926_f129e80212_o.jpg
+telecaster_004
+	  75x  75 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_s.jpg
+	 150x 150 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_q.jpg
+	 100x  67 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_t.jpg
+	 240x 160 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_m.jpg
+	 320x 214 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_n.jpg
+	 500x 334 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74.jpg
+	 640x 428 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_z.jpg
+	 800x 534 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_c.jpg
+	1024x 684 : https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_b.jpg
+	1600x1068 : https://farm1.staticflickr.com/697/21385958960_ce32b146f6_h.jpg
+	2048x1367 : https://farm1.staticflickr.com/697/21385958960_54d67ed767_k.jpg
+	5900x3939 : https://farm1.staticflickr.com/697/21385958960_d8dc3e9e1d_o.jpg
