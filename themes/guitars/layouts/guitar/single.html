@@ -5,7 +5,7 @@
 
 	<header class="page-header">
 	<div class="base">
-		<div class="thumb" style="background-image: url('/img/guitar/{{ .Source.File.BaseFileName }}/thumb.jpg');"></div>
+		<div class="thumb" style="background-image: url('{{ .Site.BaseURL }}/img/guitar/{{ .Source.File.BaseFileName }}/thumb.jpg');"></div>
 		<div class="triangle"></div>
 		<h2>{{ .Title }} - {{ .Params.buildyear }}</h2>
 	</div>

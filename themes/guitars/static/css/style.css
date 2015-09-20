@@ -1,12 +1,12 @@
 @font-face
 {
 	font-family: OpenSans-Light;
-	src: url("/open-sans/OpenSans-Light.ttf");
+	src: url("../open-sans/OpenSans-Light.ttf");
 }
 @font-face
 {
 	font-family: OpenSans-Regular;
-	src: url("/open-sans/OpenSans-Regular.ttf");
+	src: url("../open-sans/OpenSans-Regular.ttf");
 }
 
 html
@@ -78,7 +78,7 @@ strong
 header.site-header
 {
 	width: 100%;
-	background-image: url("/img/background.jpg");
+	background-image: url("../img/background.jpg");
 	padding: 0;
 }
 	header.site-header a
@@ -245,7 +245,7 @@ p.welcome
 
 #avatar
 {
-	background-image: url("/img/avatar.jpg");
+	background-image: url("../img/avatar.jpg");
 	background-size: contain;
 	border-radius: 50%;
 	margin: 30px auto;
@@ -307,7 +307,7 @@ div.list-guitars a:hover
 			background-color: rgba(255, 255, 255, 0.3);
 			background-position: center;
 			background-repeat: no-repeat;
-			background-image: url("/img/more_white.png");
+			background-image: url("../img/more_white.png");
 		}
 		div.list-guitars a:hover .hvr-grow,
 		div.list-guitars a:focus .hvr-grow,
