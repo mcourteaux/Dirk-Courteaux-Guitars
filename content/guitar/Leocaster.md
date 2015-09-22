@@ -17,7 +17,7 @@ wt_top = "Cherrywood"
 
 This is my first electrical guitar
 
-
+![](https://farm1.staticflickr.com/691/20951252194_482d7ce38b_h.jpg)
 ![](https://farm1.staticflickr.com/655/21547839756_28d6f4f5ad_h.jpg)
 ![](https://farm1.staticflickr.com/733/20951264414_512be55dfb_c.jpg)
 ![](https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_c.jpg)
