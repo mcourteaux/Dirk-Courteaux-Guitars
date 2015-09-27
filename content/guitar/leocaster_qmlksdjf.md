@@ -21,4 +21,3 @@ This is my first electrical guitar
 ![](https://farm1.staticflickr.com/655/21547839756_28d6f4f5ad_h.jpg)
 ![](https://farm1.staticflickr.com/733/20951264414_512be55dfb_c.jpg)
 ![](https://farm1.staticflickr.com/681/21547852926_c6fe14ddec_c.jpg)
-![](https://farm1.staticflickr.com/697/21385958960_9ec8b39e74_c.jpg)
