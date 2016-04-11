@@ -265,7 +265,7 @@ div.list-guitars a
 {
 	color: black;
 	text-decoration: none;
-	padding: 2px;
+	padding: 0px;
 	display: block;
 }
 div.list-guitars a:hover
